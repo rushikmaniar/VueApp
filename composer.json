@@ -19,6 +19,7 @@
 	"require-dev": {
 		"mikey179/vfsStream": "1.1.*",
 		"phpunit/phpunit": "4.* || 5.*",
-		"maximebf/debugbar": "1.*"
+		"maximebf/debugbar": "1.*",
+		"laravel-enso/vuedatatable": "2.0.4"
 	}
 }

@@ -13,8 +13,7 @@
 <!-- Amchart -->
 
 <script src="<?= base_url('assets/backoffice/') ?>js/lib/morris-chart/raphael-min.js"></script>
-<script src="<?= base_url('assets/backoffice/') ?>js/lib/morris-chart/morris.js"></script>
-<script src="<?= base_url('assets/backoffice/') ?>js/lib/morris-chart/dashboard1-init.js"></script>
+
 
 
 <script src="<?= base_url('assets/backoffice/') ?>js/lib/calendar-2/moment.latest.min.js"></script>

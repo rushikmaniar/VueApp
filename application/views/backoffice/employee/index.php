@@ -62,9 +62,12 @@
 
 </div>
 <!-- Vuew Js -->
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.8/dist/vue.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/vue@2.6.8/dist/vue.js"></script>-->
+
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script>
+<script src="<?= base_url()?>/node_modules/vue/dist/vue.js"></script>
+
+<script type="text/javascript">
     var EmployeeTable = new Vue({
         el: '#EmployeeTable',
         data: {
@@ -72,7 +75,6 @@
             base_url: base_url
         },
         created() {
-            console.log(this.employee_list)
             axios.get(base_url + '/backoffice/VueServices/Employee/getEmployeesList')
                 .then(response => {
                     if(response.status === 200){
